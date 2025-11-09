@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { RegisterDTO, UserResponseDTO } from '../auth/dto/auth.dto';
 import { DatabaseService } from '../database/database.service';
 import { removeFields } from '../utils/object.util';
-import { User } from 'generated/prisma/browser';
+import { User } from '@shared/prisma';
 import {
   PaginationQueryType,
   PaginationResponseType,

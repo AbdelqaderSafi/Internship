@@ -1,4 +1,4 @@
-import { User } from 'generated/prisma/client';
+import { User } from '@shared/prisma';
 
 export type RegisterDTO = Omit<
   User,

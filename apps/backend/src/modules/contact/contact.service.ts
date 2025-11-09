@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { DatabaseService } from '../database/database.service';
-import { Contact } from 'generated/prisma';
+import { Contact } from '@shared/prisma';
 import { ContactDTO } from './dto/contact.dto';
 import {
   PaginationQueryType,

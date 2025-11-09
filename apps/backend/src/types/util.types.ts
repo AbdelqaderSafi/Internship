@@ -1,4 +1,4 @@
-import { Prisma } from 'generated/prisma';
+import { Prisma } from '@shared/prisma';
 
 export type PaginationQueryType = {
   page?: number;

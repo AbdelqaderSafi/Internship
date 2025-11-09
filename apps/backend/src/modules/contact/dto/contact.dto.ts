@@ -1,4 +1,4 @@
-import { Contact } from 'generated/prisma';
+import { Contact } from '@shared/prisma';
 
 export type ContactDTO = Omit<
   Contact,
